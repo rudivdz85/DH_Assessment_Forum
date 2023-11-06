@@ -18,8 +18,8 @@ To install the Forum Project, follow these steps:
 Linux and macOS:
 
 {Using Bash}
-git clone https://github.com/yourusername/forum_project.git
-cd forum_project
+git clone https://github.com/rudivdz85/DH_Assessment_Forum.git
+cd DH_Assessment_Forum
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -28,8 +28,8 @@ pip install -r requirements.txt
 Windows:
 
 {Using Bash}
-git clone https://github.com/yourusername/forum_project.git
-cd forum_project
+git clone https://github.com/rudivdz85/DH_Assessment_Forum.git
+cd DH_Assessment_Forum
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
