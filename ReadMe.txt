@@ -48,7 +48,7 @@ python manage.py runserver
 Now, navigate to http://127.0.0.1:8000/admin/ in your web browser to open the Django admin site and log in with the superuser credentials you created.
 
 
-Endpoints:
+Endpoints: (Postman Collection available to make use of these)
 
 List all posts:
 
@@ -85,7 +85,5 @@ List all users:
 Endpoint: /users/
 Method: GET
 Access: Admin Users Only
-
-
 
 When using these endpoints, ensure that you replace <post_id> with the actual numerical ID of the post you want to like for the third endpoint. For the POST requests, authenticated users need to provide their credentials, such as a token, in the request's Authorization header.
